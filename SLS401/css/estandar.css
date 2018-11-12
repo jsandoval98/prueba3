@@ -1,0 +1,789 @@
+.letras_grid
+{
+	FONT-SIZE: 8pt; 
+	COLOR: black; 
+	FONT-FAMILY: Verdana; 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.rtext
+{
+	border:1px solid #a3c7e2;
+	height: 15px;
+	FONT: 11px Tahoma, Arial;
+	COLOR: #2070b3;
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+table.grilla tr td
+{
+	background-color: White;
+	 border-right: solid 1px #2070B3;
+	 border-bottom: solid 1px #2070B3;
+}
+
+table.grilla
+{
+	 border-left: solid 1px #2070B3;
+	 border-top: solid 1px #2070B3;
+}
+
+
+.labe_titulo{
+	 font-weight: bolder;
+	  font-family:  Verdana, Geneva, Arial, Helvetica, sans-serif;
+	  font-size: 13px
+}
+
+
+body {
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	}
+
+/* the div that holds the date picker calendar */
+.dpDiv {
+	}
+
+
+/* the table (within the div) that holds the date picker calendar */
+.dpTable {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	background-color: #ece9d8;
+	border: 1px solid #AAAAAA;	
+	font: bold 11px Arial, Verdana, Sans-serf;
+	height: 20px !important;
+	border-bottom: solid 1px #8a9db5;
+	color: white;
+	background: #b9c4d2 url('../Img/titlebarBg.gif') repeat-x;
+	width: 150px	;
+	
+	}
+
+
+/* a table row that holds date numbers (either blank or 1-31) */
+.dpTR {
+	}
+
+
+/* the top table row that holds the month, year, and forward/backward buttons */
+.dpTitleTR {
+	}
+
+
+/* the second table row, that holds the names of days of the week (Mo, Tu, We, etc.) */
+.dpDayTR {
+	}
+
+
+/* the bottom table row, that has the "This Month" and "Close" buttons */
+.dpTodayButtonTR {
+	}
+
+
+/* a table cell that holds a date number (either blank or 1-31) */
+.dpTD {
+	border: 1px solid #ece9d8;
+	}
+
+
+/* a table cell that holds a highlighted day (usually either today's date or the current date field value) */
+.dpDayHighlightTD {
+	background-color: #0099CC;
+	/*background-color: #DB2027;*/
+	font-weight: bolder;
+	font-size: 10px;
+	color: white;
+	}
+
+
+/* the date number table cell that the mouse pointer is currently over (you can use contrasting colors to make it apparent which cell is being hovered over) */
+.dpTDHover {
+	background-color: #aca998;
+	border: 1px solid #888888;
+	cursor: pointer;
+	color: red;
+	}
+
+
+/* the table cell that holds the name of the month and the year */
+.dpTitleTD {
+	}
+
+
+/* a table cell that holds one of the forward/backward buttons */
+.dpButtonTD {
+	}
+
+
+/* the table cell that holds the "This Month" or "Close" button at the bottom */
+.dpTodayButtonTD {
+	}
+
+
+/* a table cell that holds the names of days of the week (Mo, Tu, We, etc.) */
+.dpDayTD {
+	background-color: #0099CC;
+	/*background-color: #DB2027;*/
+	border: 1px solid #AAAAAA;
+	color: white;
+	FONT-SIZE: 8pt; 
+	}
+
+
+/* additional style information for the text that indicates the month and year */
+.dpTitleText {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 8pt; 
+	COLOR: white; 
+	FONT-FAMILY: Arial; 
+	}
+
+
+/* additional style information for the cell that holds a highlighted day (usually either today's date or the current date field value) */ 
+.dpDayHighlight {
+	color: 4060ff;
+	font-weight: bold;
+	}
+
+
+/* the forward/backward buttons at the top */
+.dpButton {
+	border:1px solid #D5D5D5;
+	border-bottom: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+	font-family: Verdana, Arial;
+	font-size:10px;
+	font-weight:bold;
+	color:#666666;
+	background-image:url(../Img/buttonBg.gif);
+	background-position:top;
+	background-color:white;
+	vertical-align: middle;
+	}
+
+
+/* the "This Month" and "Close" buttons at the bottom */
+.dpTodayButton {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0076BD;
+	background-color: #E5F6FF;
+	border: 1px solid #85CCE4;
+	font-weight: bold;
+	}
+
+
+
+
+
+
+
+
+
+
+
+/**     ---------------------------------------------    */
+.tabsmenu
+{
+	font: 12px tahoma, Geneva, Arial, Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.labell {
+	font-family: verdana;
+	font-size: 10px;
+	color:#000000;
+	text-align:left;
+}
+.displayBox3 
+  {
+	border: 1px solid #7F9DB9; 
+	cursor: pointer; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	}
+	
+.displayText3 {font-size: 8pt;}
+.checklist3 { 
+		border: 2px solid lightBlue; 
+		padding: 2px; 
+		height: 250px; 
+		width: 350px; 
+		overflow: scroll;
+		font-size: 10px;
+		background: Window;
+      font-family: Arial, Helvetica, sans-serif;
+		}
+
+
+.black
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.label_num{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10px;
+	color: blue;
+	border-right: #519BE4 2px solid;
+	border-top:  #519BE4  2px solid;
+	border-left: #519BE4  2px solid;
+	border-bottom:  #519BE4  2px solid;	
+	text-align: center;
+	font-size: smaller;
+	background: Silver;
+}
+
+.cajatexto10
+{
+	border-right: #519BE4 2px solid;
+	border-top:  #519BE4  2px solid;
+	border-left: #519BE4  2px solid;
+	border-bottom:  #519BE4  2px solid;
+	font-size: 10px;
+	font-family: Verdana;
+	
+	}
+	
+	.cajatexto_rojo
+{
+	border-right: #FF0000 1px solid;
+	border-top:  #FF0000  1px solid;
+	border-left: #FF0000  1px solid;
+	border-bottom:  #FF0000  1px solid;	
+   background-color: #FFF0F5;
+   text-align: left;
+	font-family: Arial;
+	font-size: 11px;
+	color: Red;	
+	
+	}
+.labelr {
+	font-family: verdana;
+	font-size: 10px;	
+	color:#000000;
+	text-align:right;
+}
+
+.labell {
+	font-family: verdana;
+	font-size: 10px;	
+	color:#000000;
+
+}
+	.cajatexto{
+	BORDER-RIGHT: #808080 1px solid; 
+	BORDER-TOP: #808080 1px solid; 
+	BORDER-LEFT: #808080 1px solid; 
+	BORDER-BOTTOM: #808080 1px solid; 
+	FONT-SIZE: 10px; 
+	COLOR: #000080	; 
+	FONT-FAMILY:Verdana 
+	}
+		.cajatexto_centro{
+	BORDER-RIGHT: #808080 1px solid; 
+	BORDER-TOP: #808080 1px solid; 
+	BORDER-LEFT: #808080 1px solid; 
+	BORDER-BOTTOM: #808080 1px solid; 
+	FONT-SIZE: 10px; 
+	COLOR: #000080	; 
+	FONT-FAMILY:Verdana ;
+	text-align: center;
+	
+	}
+td.gris
+{
+	background: url(../img/lineaBorn.gif);
+	
+}
+td.amarillo
+{
+	/*background: url(../img/lineaBorn.gif);*/
+	background: #FFFFE0;
+	border-bottom: #0099cc thin solid	
+	
+}
+td.Azul
+{		
+	background: url(../img/top_middle.gif);	
+}
+td.grey
+{
+	 background-color: lightgrey;
+}
+
+	 
+.label {
+	font-family: Verdana, Sans-Serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bolder;
+	vertical-align:middle;
+}
+ 
+.label_chico {
+	font-family: Verdana, Sans-Serif;
+	font-size: 10px;
+	color: #7B7B7B;
+	font-weight: bolder;
+	vertical-align:top;
+}
+
+
+.label_normal {
+	font-family: Verdana, Sans-Serif;
+	font-size: 11px;
+	color: #000080;
+	vertical-align:middle;
+}
+
+.label_azul {
+	color: #000080;	
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 8pt;
+}
+.label_Titulo {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 8pt
+	color: #000000;	
+	
+}
+.label_grande{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000;	
+	
+}
+
+.label_grande_blanco{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #FFFFFF;		
+}
+
+.label_grande_white {
+
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 9pt;	
+	color: White;		
+}
+.label_white {
+	font-family:Arial
+	font-size: 9px;
+	color: White;
+	FONT-WEIGHT: bold; 
+	vertical-align:middle;
+}
+.estilo5
+{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 10pt; 
+	COLOR: #000000; 
+	FONT-FAMILY: Arial; 
+}
+.black
+{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 8pt; 
+	COLOR: #000000; 
+	FONT-FAMILY: Arial; 
+}
+
+.texto_error {
+	font-family: Arial;
+	font-size: 2px;
+	color: navy;	
+}
+.texto {
+	font-family: Arial;
+	font-size: 9px;
+	color: navy;	
+}
+.texto_ {
+	font-family: Arial;
+	font-size: 8.5px;
+	color: navy;	
+}
+.texto_10 {
+	font-family: Arial;
+	font-size: 12px;
+	color: navy;	
+}
+
+.texto_cadena {
+	font-family: Arial;
+	font-size: 12px;
+	color: navy;	
+}
+
+.error {
+		text-align: left;
+	font-family: Arial;
+	font-size: 11px;
+	color: Red;	
+	
+}
+
+.cajanumerico
+{
+BORDER-RIGHT: #808080 1px solid; 
+	BORDER-TOP: #808080 1px solid; 
+	BORDER-LEFT: #808080 1px solid; 
+	BORDER-BOTTOM: #808080 1px solid; 
+	FONT-SIZE: 10px; 
+	COLOR: #000080	; 
+	FONT-FAMILY:Verdana ;
+	text-align:right;
+}
+
+.titulo
+{
+	FONT-WEIGHT: bolder;
+	FONT-FAMILY:Arial;
+	FONT-SIZE: smaller; 
+	COLOR: Navy;
+	font-size:15px;
+	
+}
+.winopen {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #6699cc; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+    }
+	 
+.bolder
+{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 8pt; 
+	COLOR: #3f73ad; 
+	FONT-FAMILY: Arial; 
+}
+.letras
+{
+	FONT-SIZE: 8pt; 
+	COLOR: black; 
+	FONT-FAMILY: Verdana; 
+}
+table.fondo
+{
+	border-right: #0099cc thin solid; 
+	border-top: #0099cc thin solid; 
+	border-left: #0099cc thin solid; 
+	border-bottom: #0099cc thin solid	
+}
+tr.row_header
+{
+	height: 30px; 
+	background-color: #0099cc;
+	font-weight: bolder;
+	font-size: medium;
+	color: White;
+	font-family: Arial;
+}
+tr.gv_header
+{
+BackGround-Color: White;
+Font-Weight: Bolder;
+Font-Family: Arial;
+Font-Size: 8pt;
+Color: Navy;
+}
+
+tr.gv_alter
+{
+	BackGround-Color: White;
+	Font-Family: Arial;
+	Font-Size: 8pt;
+	Height: 15px;
+}
+
+tr.gv_row
+{
+	BackGround-Color: Lavender;
+	Font-Family: Arial;
+	Font-Size: 8pt;
+	Height: 15px;
+}
+
+.resaltado
+{
+	BackGround-Color: Lavender;
+	Font-Family: Arial;
+	Font-Size: 8pt;
+	Height: 15px;
+}
+
+tr.gv_footer
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	background-color: lightyellow;
+}
+
+tr.cabecera
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	background-color: lightyellow;
+}
+
+
+.mistake
+{
+	font-family: Verdana;
+	font-weight: bolder;
+	font-size: 10px;
+	color: red;
+}
+.mistake_verder
+{
+	font-family: Verdana;
+	font-weight: bolder;
+	font-size: 10px;
+	color: Orange;
+}
+.button
+{
+	border:1px solid #D5D5D5;
+	border-bottom: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+	font-family: Verdana, Arial;
+	font-size:10px;
+	font-weight:bold;
+	color:#666666;
+	background-image:url(../Img/buttonBg.gif);
+	background-position:top;
+	background-color:white;
+	height:20px;
+	width:80px;
+	vertical-align: middle;
+}
+.remaining
+{
+	color:Gray;
+	font-family:Arial;
+	font-size:7pt;
+}
+
+
+tr.gv_header
+{
+BackGround-Color: White;
+Font-Weight: Bolder;
+Font-Family: Arial;
+Font-Size: 8pt;
+Color: Navy;
+}
+
+
+.texto {
+	font-family: Arial;
+	font-size: 11px;
+	color: navy;	
+}
+.combo{
+	BORDER-RIGHT: #808080 1px solid; 
+	BORDER-TOP: #808080 1px solid; 
+	BORDER-LEFT: #808080 1px solid; 
+	BORDER-BOTTOM: #808080 1px solid; 
+	HEIGHT: 20px;
+	FONT-SIZE: 12px; 
+	COLOR: #333333; 
+	FONT-FAMILY:Verdana 
+	}
+	
+.Grid
+{
+	border:  1px solid #555555;
+	padding: 1pt;
+
+}
+
+.Grid td
+{
+	border: solid 1px Gray;
+	margin: 3px 3px 3px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+.GridHeader
+{
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif	;
+	font-style: normal;
+	text-align: center;
+	color: navy;
+	background-color: white;
+}
+
+.GridHeader a
+{
+	font-family: Arial, Helvetica, sans-serif	;
+	font-size: 8pt;
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	color: #003366;
+	padding: 0px 15px 0px 15px;
+}
+
+.GridHeader a:hover
+{
+	text-decoration: underline;
+	font-family: Arial, Helvetica, sans-serif	;
+	font-size: 8pt;
+	font-style: normal;
+	text-align: center;
+	color: #003366;
+	
+}
+
+.texto_grid
+{
+	font-family: Verdana;
+	font-size: 7pt;
+	font-family: arial;
+	text-align: left;
+	color: #003366;
+}
+
+.GridItem, .GridAltItem
+{
+
+	font-family: Verdana;
+	font-size: 8pt;
+	font-family: arial;
+	text-align: center;
+	color: #003366;
+}
+
+.GridItemL, .GridAltItemL
+{
+	font-size: 8pt;
+	font-family: arial;
+	text-align:left;
+	color: #003366;
+}
+
+.GridItem
+{
+	background-color: White;
+}
+
+.GridAltItem
+{
+	background-color: #EEEEEE;
+}
+
+.GridFooter
+{
+	font-size: 9pt;	
+	text-align: center;	
+	color: Black;
+	background-color: #CCCCCC;	
+}
+
+.GridPager
+{
+	font-size: 9pt;	
+	text-align: center;	
+	color: Black;
+	background-color: #999999;
+}
+
+
+
+
+
+
+
+/*********************************** BLUE *****************************/
+
+
+td.top_left, th.top_left
+{
+	background-image: url(../img/blue/top_left.gif);
+	font-weight: normal;
+	font-family: verdana;
+	font-size: 10px;
+	color: White;
+	width: 13px;
+	height: 24px;
+}
+td.top_middle, th.top_middle
+{
+	background-image: url(../img/blue/top_middle.gif);
+	/*background-repeat: repeat-x;*/
+	color: White;
+	font-family: Tahoma;
+	font-size: 8pt;
+	height: 24px;
+}
+td.top_right, th.top_right
+{
+	background-image: url(../img/blue/top_right.gif);
+	background-repeat: no-repeat;
+	color: White;
+	width: 13px;
+	height: 24px;
+}
+
+td.bottom_left
+{
+	background-image: url(../img/blue/bottom_left.gif);
+	background-repeat: no-repeat;
+	color: White;
+	width: 13px;
+	height: 24px;
+}
+td.bottom_middle
+{
+	background-image: url(../img/blue/bottom_middle.gif);
+	/*background-repeat: repeat-x;*/
+	color: White;
+	height: 24px;
+}
+td.bottom_right
+{
+	background-image: url(../img/blue/bottom_right.gif);
+	background-repeat: no-repeat;
+	color: White;
+	width: 13px;
+	height: 24px;
+}
+td.td_middle
+{
+	background-image: url(../img/blue/middle.gif);
+	color: White;
+}
+tr.tr_middle
+{
+	background-image: url(../img/blue/middle.gif);
+	color: White;
+}
+
+.error
+{
+	BackGround-Color: #FFF0F5;
+	Border-Style: solid;
+	Border-Width: 1px;
+	Color: #FF0000;
+	Font-Family: Arial;
+	Font-Size: 8pt;
+	Text-Align: Center;
+}font-weight: bold;
