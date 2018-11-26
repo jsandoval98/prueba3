@@ -5,6 +5,7 @@ using System.Web;
 
 namespace SLS401.Models
 {
+    //comentarios
     public class Archivo1
     {
         public string sociedad { get; set; }
